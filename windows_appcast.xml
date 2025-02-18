@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>TSABI Portal (Windows)</title>
-        <link>http://172.20.10.15:4001</link>
+        <link>https://yourserver.com/update-page</link>
         <description>🚀 New Windows update with bug fixes</description>
         <language>en-us</language>
 
@@ -11,10 +11,10 @@
             <description>New Windows update with bug fixes</description>
             <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
             <enclosure
-                url="https://github.com/mrsarfraz/files/blob/master/TSABI%20Portal.exe"
+                url="https://raw.githubusercontent.com/mrsarfraz/files/main/TSABI%20Portal.exe"
                 length="52428800"
                 type="application/octet-stream"
-                sparkle:version="3"
+                sparkle:version="0.0.3"
                 sparkle:shortVersionString="0.0.3" />
         </item>
     </channel>
