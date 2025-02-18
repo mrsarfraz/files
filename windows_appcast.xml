@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>TSABI Portal (Windows)</title>
+        <link>https://yourserver.com/update-page</link>
+        <description>🚀 New Windows update with bug fixes</description>
+        <language>en-us</language>
+
         <item>
             <title>Version 0.0.3</title>
-            <description>🚀 New Windows update with bug fixes</description>
+            <description>New Windows update with bug fixes</description>
             <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
-            <enclosure url="https://yourserver.com/downloads/myapp_v2.0.0.exe"
+            <enclosure
+                url="https://yourserver.com/downloads/myapp_v0.0.3.exe"
                 length="52428800"
-                type="application/octet-stream" />
-            <sparkle:version>0.0.3</sparkle:version>
+                type="application/octet-stream"
+                sparkle:version="3"
+                sparkle:shortVersionString="0.0.3" />
         </item>
     </channel>
 </rss>
