@@ -9,7 +9,7 @@
             <enclosure url="https://yourserver.com/downloads/myapp_v2.0.0.exe"
                 length="52428800"
                 type="application/octet-stream" />
-            <sparkle:version>2.0.0</sparkle:version>
+            <sparkle:version>0.0.3</sparkle:version>
         </item>
     </channel>
 </rss>
