@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>TSABI Portal (Windows)</title>
+        <item>
+            <title>Version 0.0.3</title>
+            <description>🚀 New Windows update with bug fixes</description>
+            <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
+            <enclosure url="https://yourserver.com/downloads/myapp_v2.0.0.exe"
+                length="52428800"
+                type="application/octet-stream" />
+            <sparkle:version>2.0.0</sparkle:version>
+        </item>
+    </channel>
+</rss>
