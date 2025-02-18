@@ -11,7 +11,7 @@
             <description>New Windows update with bug fixes</description>
             <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
             <enclosure
-                url="https://yourserver.com/downloads/myapp_v0.0.3.exe"
+                url="http://172.20.10.15:4001"
                 length="52428800"
                 type="application/octet-stream"
                 sparkle:version="3"
