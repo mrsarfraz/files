@@ -17,7 +17,7 @@
             type="application/octet-stream"
             sparkle:version="0.0.3"
             sparkle:os="windows" />
-        <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags>
+<!--        <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags>-->
     </item>
 
     <!-- macOS Update -->
