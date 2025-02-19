@@ -1,23 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
-        <title>TSABI Portal (Windows)</title>
-        <link>https://my.tsabi.law</link>
-        <description>🚀 New Windows update with bug fixes</description>
-        <language>en-us</language>
+<channel>
+    <title>TSABI Portal Updates</title>
+<!--    <link>https://my.tsabi.law</link>-->
+    <description>🚀 New updates for TSABI Portal</description>
+    <language>en-us</language>
 
-        <item>
-            <title>Version 0.0.3</title>
-            <description>New Windows update with bug fixes</description>
-            <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
-            <enclosure
-                url="https://drive.google.com/file/d/1sjRIITuOphLg1W9XvHdL_wBI60PEUMGf/view?usp=sharing"
-                length="52428800"
-                type="application/octet-stream"
-                sparkle:version="0.0.3"
-                sparkle:shortVersionString="0.0.3"
-                sparkle:edSignature="INSERT-YOUR-GENERATED-SIGNATURE-HERE" />
-            <sparkle:releaseNotesLink>https://my.tsabi.law</sparkle:releaseNotesLink>
-        </item>
-    </channel>
+    <!-- Windows Update -->
+    <item>
+        <title>Windows - Version 0.0.3</title>
+        <description>Bug fixes and improvements for Windows</description>
+        <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
+        <enclosure
+            url="https://drive.google.com/file/d/1sjRIITuOphLg1W9XvHdL_wBI60PEUMGf/view?usp=sharing"
+            length="52428800"
+            type="application/octet-stream"
+            sparkle:version="0.0.3"
+            sparkle:os="windows" />
+        <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags>
+    </item>
+
+    <!-- macOS Update -->
+    <item>
+        <title>macOS - Version 0.0.3</title>
+        <description>New macOS update with security enhancements</description>
+        <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
+        <enclosure
+            url="https://drive.google.com/file/d/1sjRIITuOphLg1W9XvHdL_wBI60PEUMGf/view?usp=sharing"
+            length="104857600"
+            type="application/octet-stream"
+            sparkle:version="0.0.3"
+            sparkle:os="macos" />
+        <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
+    </item>
+
+    <!-- iOS Update -->
+    <item>
+        <title>iOS - Version 0.0.3</title>
+        <description>Performance improvements for iOS devices</description>
+        <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
+        <enclosure
+            url="https://drive.google.com/file/d/1sjRIITuOphLg1W9XvHdL_wBI60PEUMGf/view?usp=sharing"
+            sparkle:version="0.0.3"
+            sparkle:os="ios" />
+        <sparkle:minimumSystemVersion>17.0.0</sparkle:minimumSystemVersion>
+    </item>
+
+    <!-- Android Update -->
+    <item>
+        <title>Android - Version 0.0.3</title>
+        <description>Bug fixes and enhancements for Android</description>
+        <pubDate>Tue, 18 Feb 2025 12:00:00 +0000</pubDate>
+        <enclosure
+            url="https://drive.google.com/file/d/1sjRIITuOphLg1W9XvHdL_wBI60PEUMGf/view?usp=sharing"
+            sparkle:version="0.0.3"
+            sparkle:os="android" />
+    </item>
+
+</channel>
 </rss>
